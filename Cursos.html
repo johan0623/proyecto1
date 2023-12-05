@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Educacion al instante</title>
+    <!-- Enlaces a hojas de estilo, scripts, etc. -->
+</head>
+
+
+
+<body>
+    <header>
+    <h1 style="color: rgb(231, 121, 12);">Educacion al instante</h1>
+    <h1><a href="archivo2.html">Atras</a></h1>
+    <h2>Cursos</h2>
+
+    <div>
+        <form>
+            <Label for="Volumen">Buscar</Label>
+            <input list="data" type="text" placeholder="Buscar cursos categoria">
+            <datalist id="data">
+                <option>Lenguajes de Programación</option>
+                <option>Desarrollo Web</option>
+                <option>Desarrollo Móvil</option>
+                <option>Redes y Seguridad</option>
+                <option>Cloud Computing</option>
+                <option>Sistemas Operativos</option>
+                <option>Internet de las Cosas (IoT)</option>
+                <option>Machine Learning y Inteligencia Artificial</option>
+                <option>Novedades</option>
+                <option>Destacados</option>
+            </datalist>
+
+            <label for="Volumen">Nivel de Dificultad</label>
+            <input type="range" name="Volumen" min="1" max="5" id="Volumen" value="3" step="1" list="volList">
+            <datalist id="volList">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+            </datalist>
+
+            <label for="Volumen">duracion: </label>
+            <label for="">1min</label>
+            <input type="range" name="Volumen" min="1" max="5" id="Volumen" value="3" step="1" list="volList">
+            <datalist id="volList">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+            </datalist>
+
+        </form>
+    </div>
+    </header>
+
+  
+<!-- Agregamos cursos con fotos, descripcion y boton de simulacion para inscribirse -->
+<div>
+
+
+    <div>
+        <hr>
+        <h4>Curso basico de Html</h4>
+        <a href="https://www.youtube.com/watch?v=rbuYtrNUxg4&ab_channel=Fazt">Clik aqui</a>
+        <figure>
+        <img src="recursos/Imagenes/curso html area de cursos.jpg" alt="Curso basico Html" width="300" height="200">
+        <figcaption>"Descubre el fascinante mundo del desarrollo web con nuestro curso básico de HTML desde cero, el lenguaje esencial para crear páginas web. Este curso te guiará a través de conceptos clave, etiquetas HTML y estructuras de documentos, permitiéndote construir tus propias páginas web desde el principio.</figcaption>
+        </figure>
+        <form action="Inscribirse" method="post">
+            <button type="submit">Inscribirse</button>
+        </form>
+    </div>
+
+    <div>
+        <hr>
+        <h4>Curso de python</h4>
+        <a href="https://www.youtube.com/watch?v=IimBRwHhW54&ab_channel=HolaMundo">Click aqui</a>
+        <figure>
+            <img src="recursos/Imagenes/pythonAreaCursos.jpg" width="300" height="200" alt="Curso basico de Python">
+            <figcaption>Conoce Python desde los conceptos fundamentales hasta la resolución de problemas prácticos</figcaption>
+        </figure>
+        <form action="Inscribirse1" method="post">
+            <button type="submit">Inscribirse</button>
+        </form>
+    </div>
+
+    <div>
+        <hr>
+         <h4>Curso de C++</h4>
+         <a href="https://www.youtube.com/watch?v=VQo6gj7-hw8&ab_channel=ATLAcademy%28byLucasMoy%29">Click aqui</a>
+         <figure>
+         <img src="recursos/Imagenes/lenguaje c++.webp" width="300" height="200" alt="Curso de C++">
+         <figcaption>C++ es un lenguaje de programación potente y versátil que se utiliza para crear programas informáticos, aplicaciones, software y otras herramientas.</figcaption>
+         </figure>
+         <form action="Inscribirse2" method="post">
+            <button type="submit">Inscribirse</button>
+         </form>
+    </div>
+
+
+
+
+
+
+</div>
+</body>
+</html>
